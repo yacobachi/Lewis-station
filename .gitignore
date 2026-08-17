@@ -1,0 +1,6 @@
+# Local Claude Code settings — machine-specific, not part of the site
+.claude/settings.local.json
+
+# OneDrive / Windows noise
+desktop.ini
+Thumbs.db

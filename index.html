@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lewis Station Park Restoration — St. Helena, CA</title>
+<meta name="description" content="A neighbor-led project to restore Lewis Station Park, the downtown pocket park at Church Street and Hunt Avenue in St. Helena, California — native firewise plantings, shade, and restored seating. See the plan, join a volunteer day, or support the park.">
+<link rel="canonical" href="https://lewisstationpark.org/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#2f5d3a">
+
+<!-- How the page looks when shared on Facebook, Nextdoor, or in a text -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lewis Station Park Restoration">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://lewisstationpark.org/">
+<meta property="og:title" content="Lewis Station Park Restoration — St. Helena">
+<meta property="og:description" content="A neighbor-led project to restore Lewis Station Park, the downtown pocket park at Church Street and Hunt Avenue in St. Helena, California — native firewise plantings, shade, and restored seating. See the plan, join a volunteer day, or support the park.">
+<meta property="og:image" content="https://lewisstationpark.org/images/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Lewis Station Park Restoration, St. Helena, California">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lewis Station Park Restoration — St. Helena">
+<meta name="twitter:description" content="A neighbor-led project to restore Lewis Station Park, the downtown pocket park at Church Street and Hunt Avenue in St. Helena, California — native firewise plantings, shade, and restored seating. See the plan, join a volunteer day, or support the park.">
+<meta name="twitter:image" content="https://lewisstationpark.org/images/share-card.png">
+
+<!-- Tells Google this is a local civic project, not a generic page -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://lewisstationpark.org/#website",
+      "url": "https://lewisstationpark.org/",
+      "name": "Lewis Station Park Restoration",
+      "description": "A neighbor-led project to restore Lewis Station Park, the downtown pocket park at Church Street and Hunt Avenue in St. Helena, California — native firewise plantings, shade, and restored seating. See the plan, join a volunteer day, or support the park.",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Park",
+      "@id": "https://lewisstationpark.org/#park",
+      "name": "Lewis Station Park",
+      "url": "https://lewisstationpark.org/",
+      "description": "A downtown pocket park in St. Helena, California, gifted to the community by Rosa Lee Lewis in 1975.",
+      "image": "https://lewisstationpark.org/images/share-card.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Church Street at Hunt Avenue",
+        "addressLocality": "St. Helena",
+        "addressRegion": "CA",
+        "postalCode": "94574",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Project",
+      "@id": "https://lewisstationpark.org/#project",
+      "name": "Lewis Station Park Restoration",
+      "url": "https://lewisstationpark.org/",
+      "description": "A neighbor-led project to restore Lewis Station Park, the downtown pocket park at Church Street and Hunt Avenue in St. Helena, California — native firewise plantings, shade, and restored seating. See the plan, join a volunteer day, or support the park.",
+      "email": "lewisstationsthelena@gmail.com",
+      "location": { "@id": "https://lewisstationpark.org/#park" },
+      "areaServed": { "@type": "City", "name": "St. Helena, California" }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#22452b;
+    --sage:#7fa06b;
+    --sage-soft:#e7efe1;
+    --bark:#6b4f34;
+    --sand:#f6f2e9;
+    --cream:#fbf9f3;
+    --gold:#c98a2b;
+    --gold-soft:#f3e4c8;
+    --sail:#f6b40b;
+    --ink:#26312a;
+    --muted:#5f6b60;
+    --line:#e2ddd0;
+    --shadow:0 10px 30px rgba(34,69,43,.10);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"Georgia","Times New Roman",serif;
+    color:var(--ink);
+    background:var(--cream);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.nav,.btn,.eyebrow,.stat-num,.tag{font-family:"Helvetica Neue",Arial,sans-serif;}
+  a{color:var(--forest);}
+  img{max-width:100%;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  .eyebrow{
+    text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:700;
+    color:var(--gold);margin:0 0 10px;
+  }
+
+  /* NAV */
+  header.site{
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,249,243,.92);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 24px;max-width:1080px;margin:0 auto;
+  }
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--forest-dark);font-size:1.02rem;}
+  .brand .leaf{width:26px;height:26px;flex:0 0 26px;}
+  .nav-links{display:flex;gap:22px;flex-wrap:wrap;}
+  .nav-links a{
+    text-decoration:none;color:var(--muted);font-size:.86rem;font-weight:600;letter-spacing:.02em;
+  }
+  .nav-links a:hover{color:var(--forest);}
+  .nav .btn{padding:9px 16px;font-size:.82rem;}
+  @media(max-width:760px){.nav-links{display:none;}}
+
+  .btn{
+    display:inline-block;background:var(--forest);color:#fff;text-decoration:none;
+    padding:14px 26px;border-radius:999px;font-weight:700;font-size:.92rem;letter-spacing:.02em;
+    border:none;cursor:pointer;transition:transform .15s ease,background .15s ease;
+  }
+  .btn:hover{background:var(--forest-dark);transform:translateY(-1px);}
+  .btn.gold{background:var(--gold);color:#3a2b12;}
+  .btn.gold:hover{background:#b5781f;color:#fff;}
+  .btn.ghost{background:transparent;color:var(--forest);border:2px solid var(--sage);}
+  .btn.ghost:hover{background:var(--sage-soft);}
+
+  /* HERO */
+  .hero{position:relative;overflow:hidden;background:var(--forest-dark);color:#fff;}
+  .hero .hero-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:1;}
+  .hero .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(24,50,30,.35),rgba(24,50,30,.78));}
+  .hero-inner{position:relative;z-index:2;padding:92px 24px 84px;max-width:1080px;margin:0 auto;}
+  .hero h1{font-size:clamp(2.1rem,5.2vw,3.5rem);line-height:1.08;margin:.2em 0 .35em;max-width:16ch;text-shadow:0 2px 18px rgba(0,0,0,.25);}
+  .hero p.lead{font-size:clamp(1.05rem,2.4vw,1.32rem);max-width:52ch;color:#eef3ea;margin:0 0 30px;}
+  .hero .eyebrow{color:var(--gold-soft);}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;}
+  .hero-meta{margin-top:34px;display:flex;gap:28px;flex-wrap:wrap;color:#d8e4d0;font-size:.9rem;}
+  .hero-meta span{display:flex;align-items:center;gap:8px;}
+
+  /* SECTIONS */
+  section{padding:74px 0;}
+  section.alt{background:var(--sand);}
+  section.deep{background:var(--forest-dark);color:#eef3ea;}
+  .section-head{max-width:64ch;margin-bottom:38px;}
+  h2{font-size:clamp(1.7rem,3.6vw,2.3rem);line-height:1.15;margin:.1em 0 .35em;color:var(--forest-dark);}
+  .deep h2{color:#fff;}
+  .section-head p{font-size:1.08rem;color:var(--muted);margin:0;}
+  .deep .section-head p{color:#cfe0c6;}
+
+  .lede{font-size:1.14rem;color:#374338;max-width:62ch;}
+
+  /* STAT ROW */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:14px;}
+  .stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 20px;box-shadow:var(--shadow);}
+  .stat-num{font-size:1.7rem;font-weight:800;color:var(--forest);line-height:1;}
+  .stat-label{font-size:.82rem;color:var(--muted);margin-top:8px;font-family:"Helvetica Neue",Arial,sans-serif;}
+  @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
+
+  /* PARK PHOTO */
+  .park-photo{margin:14px 0 0;}
+  .park-photo img{
+    width:100%;height:auto;max-height:460px;object-fit:cover;display:block;
+    border-radius:20px;border:1px solid var(--line);box-shadow:var(--shadow);
+    background:var(--sage-soft);
+  }
+  .park-photo figcaption{
+    margin-top:12px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.86rem;
+    color:var(--muted);text-align:center;font-style:italic;
+  }
+
+  /* PLAN GRID */
+  .grid2{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;}
+  @media(max-width:840px){.grid2{grid-template-columns:1fr;gap:30px;}}
+  /* "The Park Today" — four photo cards of what's already at the park */
+  .today-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px;}
+  @media(max-width:920px){.today-gallery{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:480px){.today-gallery{grid-template-columns:1fr;}}
+  .today-gallery figure{margin:0;}
+  .today-gallery img{
+    width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;display:block;
+    border-radius:14px;border:1px solid var(--line);box-shadow:var(--shadow);
+    background:var(--sage-soft);
+  }
+  .today-gallery figcaption{
+    margin-top:8px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.8rem;
+    color:var(--muted);text-align:center;line-height:1.4;
+  }
+  .card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:var(--shadow);}
+  ul.check{list-style:none;padding:0;margin:0;}
+  ul.check li{position:relative;padding:9px 0 9px 34px;border-bottom:1px dashed var(--line);}
+  ul.check li:last-child{border-bottom:none;}
+  ul.check li::before{
+    content:"";position:absolute;left:0;top:14px;width:18px;height:18px;border-radius:50%;
+    background:var(--sage-soft);border:2px solid var(--sage);
+  }
+  ul.check li b{color:var(--forest-dark);}
+
+  /* PLANTS */
+  .plants{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  @media(max-width:840px){.plants{grid-template-columns:repeat(2,1fr);}}
+  .plant{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;}
+  .plant-img{
+    aspect-ratio:4/3;border-radius:10px;background:var(--sage-soft);
+    border:1px dashed #b9ccac;display:flex;align-items:center;justify-content:center;
+    color:#7d8f70;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.76rem;
+    margin-bottom:14px;text-align:center;padding:6px;object-fit:cover;overflow:hidden;
+  }
+  .plant-img{position:relative;}
+  .plant-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:10px;background:#fff;}
+  .plant-img:has(img){border-style:solid;border-color:var(--line);background:#fff;}
+  .plant h4{margin:0 0 6px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1.02rem;color:var(--forest-dark);}
+  .plant p{margin:0 0 12px;font-size:.88rem;color:var(--muted);}
+  .plant-link{margin-top:auto;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.82rem;font-weight:700;color:var(--forest);text-decoration:none;}
+  .plant-link:hover{text-decoration:underline;}
+
+  /* ABOUT US */
+  .about-us-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:center;}
+  @media(max-width:760px){.about-us-grid{grid-template-columns:1fr;gap:26px;}}
+  .about-photo{
+    aspect-ratio:4/5;border-radius:18px;background:var(--sage-soft);border:1px dashed #b9ccac;
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;
+    color:#7d8f70;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.86rem;box-shadow:var(--shadow);
+  }
+  .about-photo img{width:100%;height:100%;object-fit:cover;border-radius:18px;}
+  .placeholder-copy{color:var(--muted);font-style:italic;border-left:3px solid var(--sage);padding-left:16px;}
+  .future-note{
+    margin-top:30px;background:var(--sage-soft);border:1px solid #cdddc0;border-radius:12px;
+    padding:16px 20px;font-size:.94rem;color:#3a4a37;
+  }
+  .future-note strong{color:var(--forest-dark);}
+
+  /* PROCESS STEPS */
+  .steps{counter-reset:step;display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:8px;}
+  @media(max-width:760px){.steps{grid-template-columns:1fr;}}
+  .step{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 18px 18px 60px;box-shadow:var(--shadow);}
+  .step::before{
+    counter-increment:step;content:counter(step);
+    position:absolute;left:16px;top:16px;width:32px;height:32px;border-radius:50%;
+    background:var(--forest);color:#fff;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;
+    display:flex;align-items:center;justify-content:center;font-size:.95rem;
+  }
+  .step h4{margin:0 0 3px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.98rem;color:var(--forest-dark);}
+  .step p{margin:0;font-size:.9rem;color:var(--muted);}
+
+  /* MAPS */
+  .maps{display:grid;grid-template-columns:1fr 1fr;gap:26px;max-width:1080px;margin:0 auto;align-items:start;}
+  /* the location map spans both columns and stays narrow */
+  .maps .map-wide{grid-column:1 / -1;max-width:640px;width:100%;margin:0 auto;}
+  @media(max-width:900px){
+    .maps{grid-template-columns:1fr;max-width:640px;}
+    .maps .map-wide{max-width:none;}
+  }
+  .map-card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);}
+  .map-card .cap{padding:16px 20px;border-top:1px solid var(--line);}
+  .map-card .cap h3{margin:0 0 4px;font-size:1.05rem;color:var(--forest-dark);}
+  .map-card .cap p{margin:0;font-size:.86rem;color:var(--muted);}
+  .map-note{margin-top:18px;font-size:.82rem;color:var(--muted);background:var(--gold-soft);border:1px solid #e6d3ab;border-radius:10px;padding:12px 16px;}
+
+  /* NEWS */
+  .news-card{display:grid;grid-template-columns:.92fr 1.08fr;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);}
+  @media(max-width:760px){.news-card{grid-template-columns:1fr;}}
+  .news-photo{display:block;}
+  .news-photo img{width:100%;height:100%;min-height:230px;object-fit:cover;display:block;background:var(--sage-soft);}
+  .news-body{padding:28px 30px;}
+  .news-source{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .news-body h3{margin:0 0 10px;color:var(--forest-dark);font-size:1.28rem;line-height:1.25;}
+  .news-body h3 a{color:inherit;text-decoration:none;}
+  .news-body h3 a:hover{text-decoration:underline;}
+  .news-body p{margin:0 0 14px;color:var(--muted);font-size:.96rem;}
+  .news-body .credit{font-size:.76rem;font-style:italic;color:#9aa593;margin-bottom:18px;}
+  .support-band{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px;box-shadow:var(--shadow);margin-bottom:26px;}
+  .support-band p{margin:0 0 16px;color:#374338;font-size:1.02rem;}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;}
+  .chip{background:var(--sage-soft);color:var(--forest-dark);font-family:"Helvetica Neue",Arial,sans-serif;font-size:.8rem;font-weight:700;padding:8px 14px;border-radius:999px;}
+
+  /* SAVE THE DATE */
+  .dates{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+  @media(max-width:760px){.dates{grid-template-columns:1fr;}}
+  .date-card{
+    background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);
+    border:1px solid var(--line);display:flex;flex-direction:column;
+  }
+  .date-top{background:var(--forest);color:#fff;padding:20px 24px;display:flex;align-items:baseline;gap:14px;}
+  .date-top .mo{font-family:"Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:.15em;font-size:.8rem;font-weight:700;color:var(--gold-soft);}
+  .date-top .day{font-family:"Helvetica Neue",Arial,sans-serif;font-size:2.4rem;font-weight:800;line-height:1;}
+  .date-body{padding:22px 24px;}
+  .date-body h3{margin:0 0 6px;color:var(--forest-dark);font-size:1.2rem;}
+  .date-body .time{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.85rem;color:var(--gold);font-weight:700;letter-spacing:.03em;margin-bottom:10px;}
+  .date-body p{margin:0 0 16px;color:var(--muted);font-size:.95rem;}
+  .tag{display:inline-block;background:var(--sage-soft);color:var(--forest-dark);font-size:.72rem;font-weight:700;padding:5px 11px;border-radius:999px;letter-spacing:.03em;}
+  .tbc{font-size:.78rem;color:var(--muted);font-style:italic;margin-top:14px;}
+
+  /* SUPPORT */
+  .support-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;}
+  @media(max-width:840px){.support-inner{grid-template-columns:1fr;}}
+  .give-box{background:#fff;color:var(--ink);border-radius:20px;padding:30px;box-shadow:0 18px 44px rgba(0,0,0,.28);}
+  .give-tiers{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 22px;}
+  .tier{flex:1;min-width:80px;text-align:center;border:2px solid var(--sage);border-radius:12px;padding:14px 8px;cursor:pointer;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;color:var(--forest-dark);transition:all .15s;}
+  .tier:hover,.tier.sel{background:var(--forest);color:#fff;border-color:var(--forest);}
+  .tier small{display:block;font-weight:500;font-size:.68rem;color:var(--muted);margin-top:3px;}
+  .tier:hover small,.tier.sel small{color:#d8e4d0;}
+  .placeholder-flag{font-size:.76rem;color:#9a6a12;background:var(--gold-soft);border:1px dashed #d3ab5e;border-radius:8px;padding:8px 12px;margin-top:14px;font-family:"Helvetica Neue",Arial,sans-serif;}
+
+  /* STATUS TIMELINE */
+  .timeline{position:relative;margin-top:10px;padding-left:8px;}
+  .tl-item{position:relative;padding:0 0 26px 42px;}
+  .tl-item::before{content:"";position:absolute;left:3px;top:3px;width:19px;height:19px;border-radius:50%;background:#fff;border:4px solid var(--forest);}
+  .tl-item.done::before{background:var(--forest);}
+  .tl-item.next::before{border-color:var(--gold);background:var(--gold-soft);}
+  .tl-date{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--gold);}
+  .tl-item h4{margin:2px 0 4px;color:var(--forest-dark);font-size:1.08rem;}
+  .tl-item p{margin:0;color:var(--muted);font-size:.94rem;}
+
+  /* COMMENTS */
+  .comment-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+  @media(max-width:840px){.comment-grid{grid-template-columns:1fr;}}
+  .quote{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 24px;box-shadow:var(--shadow);position:relative;}
+  .quote::before{content:"\201C";position:absolute;top:-6px;left:14px;font-size:3.4rem;color:var(--sage);font-family:Georgia,serif;line-height:1;}
+  .quote p{margin:10px 0 12px;font-style:italic;color:#37432f;}
+  .quote .who{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.82rem;font-weight:700;color:var(--muted);}
+  form.share{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px;box-shadow:var(--shadow);}
+  form.share label{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.82rem;font-weight:700;color:var(--forest-dark);margin:14px 0 6px;}
+  form.share input,form.share textarea{
+    width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;font-family:inherit;font-size:.96rem;background:var(--cream);
+  }
+  form.share input:focus,form.share textarea:focus{outline:none;border-color:var(--sage);}
+  form.share textarea{min-height:110px;resize:vertical;}
+  .form-msg{display:none;margin-top:14px;padding:12px 16px;border-radius:10px;background:var(--sage-soft);color:var(--forest-dark);font-family:"Helvetica Neue",Arial,sans-serif;font-size:.9rem;}
+
+  /* FOOTER */
+  footer.site{background:var(--forest-dark);color:#cfe0c6;padding:54px 0 30px;}
+  footer .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;}
+  @media(max-width:760px){footer .fgrid{grid-template-columns:1fr;gap:22px;}}
+  footer h4{font-family:"Helvetica Neue",Arial,sans-serif;color:#fff;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px;}
+  footer a{color:#e6efdf;}
+  footer .fine{margin-top:34px;padding-top:20px;border-top:1px solid rgba(255,255,255,.15);font-size:.8rem;color:#9fb495;}
+  .disclaimer{font-size:.78rem;color:#9fb495;margin-top:8px;line-height:1.5;}
+
+  /* COMMUNITY VOICES — approved comments */
+  .voices{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;max-width:900px;margin:34px auto 0;}
+  .voice{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:var(--shadow);}
+  .voice p{margin:0 0 12px;font-style:italic;color:#3a4a37;font-size:.95rem;line-height:1.6;}
+  .voice-who{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.82rem;font-weight:700;color:var(--forest);}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site">
+  <div class="nav">
+    <div class="brand">
+      <svg class="leaf" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 Q12.4 3 12.6 3.6 Q15.5 3 16 5.2 Q13.6 6 13 7 Q17 6.6 17.6 9 Q14.4 9.6 13.6 11 Q18.4 11 18.6 13.4 Q14.6 13.6 13.4 15.2 Q17 15.6 16.4 18 Q13.8 17.6 13 18.8 Q13.4 20.8 12 22 Q10.6 20.8 11 18.8 Q10.2 17.6 7.6 18 Q7 15.6 10.6 15.2 Q9.4 13.6 5.4 13.4 Q5.6 11 9.6 11 Q9.6 9.6 6.4 9 Q7 6.6 11 7 Q10.4 6 8 5.2 Q8.5 3 11.4 3.6 Q11.6 3 12 2 Z" fill="#2f5d3a"/><path d="M12 5 L12 21" stroke="#e7efe1" stroke-width="1" stroke-linecap="round"/></svg>
+      Lewis Station Park
+    </div>
+    <nav class="nav-links">
+      <a href="#plan">The Plan</a>
+      <a href="#maps">Maps</a>
+      <a href="#dates">Volunteer Days</a>
+      <a href="#status">Status</a>
+      <a href="#news">News</a>
+      <a href="#comment">Share</a>
+      <a href="#support">Support</a>
+    </nav>
+    <a href="#support" class="btn">Donate</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <svg class="hero-art" viewBox="0 0 1440 620" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3c6b48"/><stop offset="1" stop-color="#22452b"/>
+      </linearGradient>
+      <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#5b8352"/><stop offset="1" stop-color="#3d6238"/>
+      </linearGradient>
+    </defs>
+    <rect width="1440" height="620" fill="url(#sky)"/>
+    <circle cx="1180" cy="130" r="66" fill="#f3e4c8" opacity=".5"/>
+    <path d="M0 430 Q 360 320 720 400 T 1440 380 V620 H0 Z" fill="url(#hill)" opacity=".85"/>
+    <path d="M0 500 Q 400 430 820 490 T 1440 470 V620 H0 Z" fill="#2f5d3a" opacity=".9"/>
+    <!-- trees -->
+    <g fill="#26492d" opacity=".9">
+      <path d="M180 500c-22 0-40-18-40-40 0-30 40-70 40-70s40 40 40 70c0 22-18 40-40 40z"/>
+      <rect x="174" y="498" width="12" height="40" fill="#6b4f34"/>
+      <path d="M320 512c-18 0-33-15-33-33 0-25 33-58 33-58s33 33 33 58c0 18-15 33-33 33z"/>
+      <rect x="315" y="510" width="10" height="34" fill="#6b4f34"/>
+      <path d="M1120 508c-20 0-37-17-37-37 0-28 37-64 37-64s37 36 37 64c0 20-17 37-37 37z"/>
+      <rect x="1114" y="506" width="11" height="38" fill="#6b4f34"/>
+    </g>
+    <!-- rail line -->
+    <g stroke="#1c3a23" stroke-width="4" opacity=".5"><line x1="0" y1="560" x2="1440" y2="536"/><line x1="0" y1="576" x2="1440" y2="552"/></g>
+  </svg>
+  <div class="veil"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">St. Helena, California</p>
+    <h1>Lewis Station Park Restoration</h1>
+    <p class="lead">A neighbor-led project to restore this downtown pocket park with native plantings, shade, and better seating — in partnership with the City of St. Helena and the Beautification Foundation.</p>
+    <div class="hero-cta">
+      <a href="#support" class="btn gold">Support the park</a>
+      <a href="#updates" class="btn ghost" style="color:#fff;border-color:#ffffff88;">Get updates</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / OVERVIEW -->
+
+<!-- ====================================================================
+     ABOUT — the park's history and what the restoration does
+     ==================================================================== -->
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">About</p>
+      <h2>About the restoration</h2>
+    </div>
+    <p class="lede">Lewis Station is a beloved downtown pocket park at Church Street and Hunt Avenue, about half a block from Main Street. The land was given to the City by Rosa Lee Lewis in 1975, and community members came together to create a seating area with an arbor and trees. Over the years the trees died and the arbor became unusable — and with no significant improvements in 50 years, this ideally located park is calling for a refresh.</p>
+
+    <p class="lede">Beginning in September 2025, a group of dedicated residents worked through some fourteen resident and City staff meetings — alongside the City's Parks &amp; Recreation Department, landscape designer Becke Oberschulte, and arborist Bill Pramuk — to shape a thoughtful restoration, developed in coordination with the City's Parks and Trails Master Plan. The plan brings healthy shade, drought-tolerant firewise native plantings, restored seating and facilities, and a more welcoming place to gather. It was presented to the Parks &amp; Recreation Commission in June 2026, and the community is now invited to help bring it to life.</p>
+
+    <p style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:.9rem;color:var(--muted);margin-top:-4px;">Led by Kathy Carrick, Tracy McBride, and Nancy Morrell (Beautification Foundation), with landscape designer Becke Oberschulte and arborist Bill Pramuk.</p>
+
+    <figure class="park-photo">
+      <!-- PHOTO SLOT: drop your own file at images/park-photo.jpg to replace this -->
+      <img src="images/park-photo.jpg" width="1600" height="1200"
+           alt="Lewis Station Park today — picnic tables, a large boulder, and mature trees on a paver courtyard beside the rail line at Church Street and Hunt Avenue in St. Helena, California"
+           loading="lazy" decoding="async">
+      <figcaption>Lewis Station Park today — a beloved pocket park at Church Street &amp; Hunt Avenue in St. Helena.</figcaption>
+    </figure>
+
+    <div style="margin-top:44px;">
+      <p class="eyebrow">The Park Today</p>
+      <h3 style="color:var(--forest-dark);font-size:1.35rem;margin:.1em 0 14px;">What's already there</h3>
+      <p>Today the park offers three picnic tables, an accessible bathroom, a plaque honoring Rosa Lee Lewis, an existing Valley Oak, and three other mature trees in its southern corner.</p>
+      <p>Two railroad artifacts — a Southern Pacific crossing sign and a metal track switch — recall the park's place along the historic Napa Valley rail corridor, and there may also be room for public art.</p>
+
+      <div class="today-gallery">
+        <figure>
+          <img src="images/today-picnic-tables.jpg" width="750" height="1000" alt="Two of the park's three picnic tables on the paver courtyard, with young trees and the rail line beyond." loading="lazy" decoding="async">
+          <figcaption>The three picnic tables on the paver courtyard.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/today-bathroom.jpg" width="750" height="1000" alt="The park's small accessible bathroom building, its side wrapped in a large green honeysuckle vine." loading="lazy" decoding="async">
+          <figcaption>The accessible bathroom, wrapped in honeysuckle.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/today-plaque.jpg" width="750" height="1000" alt="A bronze plaque honoring Rosa Lee Lewis, mounted on a natural boulder in a gravel bed beside the rail line." loading="lazy" decoding="async">
+          <figcaption>The plaque honoring Rosa Lee Lewis.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/railroad-crossing.jpg" width="900" height="1200" alt="A historic Southern Pacific railroad crossing sign on a weathered wooden post at Lewis Station Park, with the rail line and downtown St. Helena behind it." loading="lazy" decoding="async">
+          <figcaption>The historic Southern Pacific crossing sign.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US -->
+
+<!-- ====================================================================
+     THE TEAM — committee member names
+     ==================================================================== -->
+<section id="about-us" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">About Us</p>
+      <h2>The team behind the restoration</h2>
+      <p>The residents and partners steering the Lewis Station rehabilitation.</p>
+    </div>
+    <div class="about-us-grid">
+      <div class="about-photo">
+        <span>Team photo coming soon</span>
+      </div>
+      <div>
+        <p class="placeholder-copy">[Draft copy coming soon — a short introduction to the people leading the Lewis Station restoration and why this park matters to them. Stephanie will provide the text and a group photo to drop in here.]</p>
+        <p style="color:var(--muted);font-size:.95rem;">In the meantime: the effort is led by residents Kathy Carrick, Tracy McBride, and Nancy Morrell (Beautification Foundation), with landscape designer Becke Oberschulte and arborist Bill Pramuk — in partnership with the City of St. Helena.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE PLAN -->
+
+<!-- ====================================================================
+     WHAT'S INCLUDED — the list of improvements
+     ==================================================================== -->
+<section id="plan">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">The Plan</p>
+      <h2>What the restoration includes</h2>
+      <p>Developed by the volunteer committee with City staff — low-water, low-maintenance, fire-smart, and planted to support native bees, butterflies, and birds.</p>
+    </div>
+
+    <div class="card" style="max-width:720px;margin:0 auto;">
+      <h3 style="margin-top:0;color:var(--forest-dark);">Highlights of the design</h3>
+      <ul class="check">
+        <li><b>A central Coast Live Oak</b> — a majestic California native that will one day give 50+ feet of shade.</li>
+        <li><b>Firewise, drought-tolerant natives</b> — Arbutus, Ceanothus, and Western Redbud, needing minimal water once established.</li>
+        <li><b>Shade sails over the picnic areas</b> for cool, comfortable gathering — with a garden arbor as a backup option.</li>
+        <li><b>New seating</b> — three new benches with backs, plus natural boulder seating.</li>
+        <li><b>Restored facilities</b> — bathroom refresh, fencing along two sides, and a renewed irrigation system and controller.</li>
+        <li><b>Sheet mulching &amp; soil enhancements</b> plus a new garbage &amp; recycling station to keep the park healthy and tidy.</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:50px;">
+      <p class="eyebrow">The Palette</p>
+      <h3 style="color:var(--forest-dark);font-size:1.35rem;margin:.1em 0 18px;">Signature native plantings</h3>
+      <div class="plants">
+        <div class="plant">
+          <div class="plant-img"><!-- PHOTO SLOT: drop your own file at images/plant-live-oak.jpg to fill this card --><img src="images/plant-live-oak.jpg" alt="A mature Coast Live Oak with a wide spreading canopy shading dry grass, the kind of tree planned as the centerpiece of Lewis Station Park." loading="lazy" decoding="async" onerror="this.remove()"><span>Photo coming soon</span></div>
+          <h4>Coast Live Oak</h4>
+          <p>The park's centerpiece — an iconic California native destined for 50+ feet of canopy and shade.</p>
+          <a class="plant-link" href="https://calscape.org/Quercus-agrifolia-(Coast-Live-Oak)" target="_blank" rel="noopener">Learn more &rarr;</a>
+        </div>
+        <div class="plant">
+          <div class="plant-img"><!-- PHOTO SLOT: drop your own file at images/plant-redbud.jpg to fill this card --><img src="images/plant-redbud.jpg" alt="A young multi-trunked Western Redbud in full summer leaf, growing in a mulched bed beside a chain-link fence." loading="lazy" decoding="async" onerror="this.remove()"><span>Photo coming soon</span></div>
+          <h4>Western Redbud</h4>
+          <p>A California native chosen as the park's dedication plant, with vivid spring blooms.</p>
+          <a class="plant-link" href="https://calscape.org/Cercis-occidentalis-(Western-Redbud)" target="_blank" rel="noopener">Learn more &rarr;</a>
+        </div>
+        <div class="plant">
+          <div class="plant-img"><!-- PHOTO SLOT: drop your own file at images/plant-ceanothus.jpg to fill this card --><img src="images/plant-ceanothus.jpg" alt="Ceanothus, California lilac, covered in clusters of blue flowers." loading="lazy" decoding="async" onerror="this.remove()"><span>Photo coming soon</span></div>
+          <h4>Ceanothus</h4>
+          <p>California lilac — a drought-tolerant native prized for its clouds of blue flowers.</p>
+          <a class="plant-link" href="https://calscape.org/Ceanothus-'Dark-Star'-(Dark-Star-Ceanothus)" target="_blank" rel="noopener">Learn more &rarr;</a>
+        </div>
+        <div class="plant">
+          <div class="plant-img"><!-- PHOTO SLOT: drop your own file at images/plant-arbutus.jpg to fill this card --><img src="images/plant-arbutus.jpg" alt="Arbutus, a drought-tolerant evergreen with smooth reddish bark." loading="lazy" decoding="async" onerror="this.remove()"><span>Photo coming soon</span></div>
+          <h4>Arbutus</h4>
+          <p>An evergreen with handsome bark and berries, low-water and firewise once established.</p>
+          <a class="plant-link" href="https://www.urbantreefarm.com/product/arbutus-unedo/" target="_blank" rel="noopener">Learn more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="future-note">
+      <strong>Coming in later phases:</strong> a drinking fountain, water-bottle refill station, dog water bowl, bike rack, interpretive signage, a dog-waste station — and possibly public art.
+    </div>
+  </div>
+</section>
+
+<!-- MAPS -->
+
+<!-- ====================================================================
+     MAPS — the concept plan image and captions
+     ==================================================================== -->
+<section id="maps" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Visualize It</p>
+      <h2>Maps &amp; the concept plan</h2>
+      <p>The committee's conceptual plan for the park, and where Lewis Station sits in downtown St. Helena.</p>
+    </div>
+
+    <div class="maps">
+      <!-- MAP 1: The drafted park plans -->
+      <div class="map-card">
+        <a href="images/park-plans.jpg" target="_blank" rel="noopener" title="Open the full-size plan drawing">
+          <img src="images/park-plans.jpg" width="2000" height="781" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;background:#fff;" alt="Hand-drafted site plan for Lewis Station Park at one-eighth inch scale, showing four multi-stemmed Arbutus, five Western Redbud, one Coast Live Oak and eight Dark Star Ceanothus laid out between the railroad fence line, Church Street and Hunt Avenue, along with proposed shade sails, benches, boulders, a paver patio, the restroom, and a recycling and garbage station.">
+        </a>
+        <div class="cap">
+          <h3>The park plans</h3>
+          <p>The California native, drought-tolerant plants are chosen to support native bees, butterflies, and birds and once established, may need little to no irrigation. The plantings can be expanded with even more natives over time, serving the community as a native plant demonstration garden.</p>
+        </div>
+      </div>
+
+      <!-- MAP 2: Planting concept -->
+      <div class="map-card">
+        <img src="images/planting-concept.png" width="900" height="1240" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;background:#fff;" alt="Conceptual planting plan for Lewis Station Park showing proposed live oaks, arbutus, redbud, ceanothus, three new benches, boulders, waste and recycling bins, and shade sails, bounded by the railroad tracks, Hunt Avenue and Church Street.">
+        <div class="cap">
+          <h3>Conceptual plan</h3>
+          <p>The committee’s proposed planting, seating, and shade design — a central Coast Live Oak, native Arbutus, Ceanothus and Redbud, new benches and boulders, and yellow shade sails over the picnic area.</p>
+        </div>
+      </div>
+
+      <!-- MAP 3: Location context -->
+      <div class="map-card map-wide">
+        <svg viewBox="0 0 520 360" width="100%" role="img" aria-label="Illustrative location map of Lewis Station Park in St. Helena">
+          <rect width="520" height="360" fill="#eef2e8"/>
+          <!-- blocks -->
+          <g fill="#e2ddcb">
+            <rect x="40" y="40" width="130" height="90" rx="6"/>
+            <rect x="200" y="40" width="120" height="90" rx="6"/>
+            <rect x="350" y="40" width="130" height="90" rx="6"/>
+            <rect x="40" y="230" width="130" height="90" rx="6"/>
+            <rect x="350" y="230" width="130" height="90" rx="6"/>
+          </g>
+          <!-- streets -->
+          <g stroke="#cfc7b2" stroke-width="14">
+            <line x1="0" y1="180" x2="520" y2="180"/>
+            <line x1="185" y1="0" x2="185" y2="360"/>
+            <line x1="335" y1="0" x2="335" y2="360"/>
+          </g>
+          <!-- rail line diagonal -->
+          <g>
+            <line x1="70" y1="360" x2="470" y2="150" stroke="#b7a687" stroke-width="8"/>
+            <line x1="70" y1="360" x2="470" y2="150" stroke="#8a7a58" stroke-width="2" stroke-dasharray="2 8"/>
+          </g>
+          <!-- park -->
+          <rect x="210" y="200" width="110" height="95" rx="10" fill="#8fb173" stroke="#2f5d3a" stroke-width="3"/>
+          <!-- park pin -->
+          <g>
+            <path d="M265 150c-16 0-29 13-29 29 0 22 29 46 29 46s29-24 29-46c0-16-13-29-29-29z" fill="#c98a2b"/>
+            <circle cx="265" cy="179" r="11" fill="#fff"/>
+          </g>
+          <g font-family="Helvetica Neue,Arial,sans-serif" font-weight="700" fill="#2f4a2c">
+            <text x="214" y="255" font-size="13">Lewis</text>
+            <text x="214" y="272" font-size="13">Station Park</text>
+          </g>
+          <g font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" fill="#8a7a58">
+            <text x="360" y="120" transform="rotate(-28 360 120)">NAPA VALLEY RAIL CORRIDOR</text>
+          </g>
+          <text x="40" y="30" font-family="Helvetica Neue,Arial,sans-serif" font-size="11" font-weight="700" fill="#5f6b60">ST. HELENA</text>
+        </svg>
+        <div class="cap">
+          <h3>Where to find us</h3>
+          <p>Lewis Station Park sits along the historic rail corridor in the heart of St. Helena.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="map-note">The conceptual plan is the committee's official design. The location map is a simple illustration of where the park sits downtown.</p>
+  </div>
+</section>
+
+<!-- SAVE THE DATE -->
+
+<!-- ====================================================================
+     SAVE THE DATE — *** change the volunteer day date here ***
+     ==================================================================== -->
+<section id="dates">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Save the Date</p>
+      <h2>Community mulching &amp; planting day — this fall</h2>
+      <p>A hands-on day to get the new plants in the ground and the beds mulched. No experience needed; all ages welcome.</p>
+    </div>
+
+    <div class="dates" style="grid-template-columns:1fr;max-width:560px;">
+      <div class="date-card">
+        <div class="date-top">
+          <div><div class="mo">Fall 2026</div><div class="day" style="font-size:1.7rem;">October</div></div>
+          <div style="align-self:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:600;">Tentative<br><span style="font-size:.8rem;color:#d8e4d0;">Date to be announced</span></div>
+        </div>
+        <div class="date-body">
+          <span class="tag">Mulching &amp; Planting Day</span>
+          <h3 style="margin-top:12px;">Community Volunteer Day</h3>
+          <p>Neighbors come together to plant the firewise natives and spread mulch across the new beds. Tools and guidance provided.</p>
+          <a href="#updates" class="btn">Sign up to be notified</a>
+          <p class="tbc">An exact date hasn't been set yet — sign up above and we'll send the details.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GET UPDATES -->
+
+<!-- ====================================================================
+     GET UPDATES — the email signup form
+     ==================================================================== -->
+<section id="updates" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Stay in the Loop</p>
+      <h2>Get updates</h2>
+      <p>Sign up to hear about volunteer days, planting dates, and progress on the restoration — or email us at <a href="mailto:lewisstationsthelena@gmail.com">lewisstationsthelena@gmail.com</a>.</p>
+    </div>
+    <!-- This form is handled by Netlify Forms. Submissions appear in the Netlify
+         dashboard under Forms → "updates", and you can turn on email notifications
+         there (Site settings → Forms → Form notifications). Free tier: 100/month. -->
+    <form class="share" name="updates" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return submitUpdates(event)" style="max-width:520px;">
+      <input type="hidden" name="form-name" value="updates">
+      <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <label for="uemail">Email</label>
+      <input id="uemail" name="email" type="email" placeholder="you@example.com" required>
+      <label for="uname">Name (optional)</label>
+      <input id="uname" name="name" type="text" placeholder="Your name">
+      <div style="margin-top:18px;"><button type="submit" class="btn">Sign me up</button></div>
+      <div id="updMsg" class="form-msg"></div>
+    </form>
+  </div>
+</section>
+
+<!-- STATUS UPDATES -->
+
+<!-- ====================================================================
+     STATUS UPDATES — *** add new progress notes here ***
+     ==================================================================== -->
+<section id="status">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Progress</p>
+      <h2>Status updates</h2>
+      <p>Follow the restoration from first idea to planting day. We'll keep this timeline current as milestones are reached.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item done">
+        <div class="tl-date">August 2025</div>
+        <h4>Neighbors begin planning</h4>
+        <p>Residents kicked off the effort with roughly ten community meetings, plus four sessions with City staff and a consultation with arborist Bill Pramuk, to review ideas and identify the park's needs — over 50 volunteer hours in all.</p>
+      </div>
+      <div class="tl-item done">
+        <div class="tl-date">June 15, 2026</div>
+        <h4>Presented to the Parks &amp; Recreation Commission</h4>
+        <p>The volunteer group presented the plan to the Commission, with input from Public Works staff.</p>
+      </div>
+      <div class="tl-item done">
+        <div class="tl-date">August 11, 2026</div>
+        <h4>Approved by City Council</h4>
+        <p>The St. Helena City Council authorized accepting donations and pursuing the renovation — with letters of support from residents and community organizations.</p>
+      </div>
+      <div class="tl-item next">
+        <div class="tl-date">Summer 2026 &middot; Underway now</div>
+        <h4>Site prep &amp; fundraising</h4>
+        <p>Public fundraising opens and site preparation begins — removing the invasive Tree of Heaven, transplanting two Catalpa trees, and clearing select pavers.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Fall 2026</div>
+        <h4>Planting, irrigation &amp; community mulching day</h4>
+        <p>City staff install the new plantings and irrigation, neighbors gather for a community sheet-mulching day, and the new benches and boulder seating go in.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Winter 2026 – Spring 2027</div>
+        <h4>Restroom, shade &amp; fencing</h4>
+        <p>Restroom exterior restoration, shade sail installation, fence repair, and possible public art complete the project.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+
+<!-- ====================================================================
+     IN THE NEWS — press links
+     ==================================================================== -->
+<section id="news" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Community Support</p>
+      <h2>Backed by the community</h2>
+      <p>The restoration has broad neighborhood support — and press coverage of the park's revival.</p>
+    </div>
+
+    <div class="support-band">
+      <p>At the August 11, 2026 City Council meeting, the plan drew letters of public support from neighbors and community organizations before the Council voted to move it forward.</p>
+      <div class="chips">
+        <span class="chip">St. Helena Historical Society</span>
+        <span class="chip">Western Monarch Society of Napa County</span>
+        <span class="chip">15+ residents wrote in support</span>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <a class="news-photo" href="https://napavalleyregister.com/community/star/news/st-helena-to-improve-lewis-station-park-replace-trees/article_d9cb9024-5f84-11ed-80b2-033628419989.html" target="_blank" rel="noopener">
+        <!-- PHOTO SLOT: drop your own file at images/news-photo.jpg to replace this -->
+        <img src="images/news-photo.jpg"
+             onerror="this.onerror=null;this.src='https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/e/bb/ebbbbe20-5f85-11ed-9c70-07aa2778d121/636a8a4b458d6.image.jpg'" alt="Lewis Station Park roped off pending major improvements" loading="lazy">
+      </a>
+      <div class="news-body">
+        <div class="news-source">St. Helena Star &middot; Nov 8, 2022</div>
+        <h3><a href="https://napavalleyregister.com/community/star/news/st-helena-to-improve-lewis-station-park-replace-trees/article_d9cb9024-5f84-11ed-80b2-033628419989.html" target="_blank" rel="noopener">St. Helena to improve Lewis Station Park, replace trees</a></h3>
+        <p>The St. Helena Star reported on plans to renovate Lewis Station Park at Hunt Avenue and Church Street — clearing aging trees flagged in a safety assessment and making way for new landscaping, updated benches and picnic tables, and bathroom improvements.</p>
+        <p class="credit">Photo: Jesse Duarte, St. Helena Star</p>
+        <a class="btn ghost" href="https://napavalleyregister.com/community/star/news/st-helena-to-improve-lewis-station-park-replace-trees/article_d9cb9024-5f84-11ed-80b2-033628419989.html" target="_blank" rel="noopener">Read the article</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT -->
+
+<!-- ====================================================================
+     SUPPORT — the donate button and link
+     ==================================================================== -->
+<section id="support" class="deep">
+  <div class="wrap">
+    <div class="support-inner">
+      <div>
+        <p class="eyebrow" style="color:var(--gold-soft);">Support</p>
+        <h2>Support the park</h2>
+        <p style="font-size:1.05rem;color:#dbe7d3;max-width:52ch;">Contributions go toward plants, irrigation, mulch, shade, and materials for the restoration. Any amount helps.</p>
+        <p style="font-family:'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold-soft);margin:22px 0 8px;">Why your support matters</p>
+        <ul style="margin:0;padding-left:20px;color:#dbe7d3;font-size:.95rem;line-height:1.65;max-width:56ch;">
+          <li>A natural park in the center of downtown — for residents, visitors, employees of nearby businesses, children walking home from school, and young adults looking for a place to gather.</li>
+          <li>A welcoming, shaded respite in nature for individuals and groups, with accessible seating and a bathroom for anyone who needs a place to rest or picnic.</li>
+          <li>A point of community pride — an attractive park with real historical significance.</li>
+          <li>Quality infrastructure designed to last, setting the stage for more native planting across our environment.</li>
+        </ul>
+        <p style="color:#bcd0b2;font-size:.95rem;margin-top:22px;">Questions, or prefer to give another way? Email us at <a href="mailto:lewisstationsthelena@gmail.com" style="color:#f3e4c8;">lewisstationsthelena@gmail.com</a>.</p>
+      </div>
+
+      <div class="give-box">
+        <h3 style="margin:0 0 6px;color:var(--forest-dark);">Make a contribution</h3>
+        <p style="margin:0 0 18px;color:var(--muted);font-size:.92rem;">Gifts are made through the Napa Valley Community Foundation.</p>
+        <a class="btn gold" style="width:100%;text-align:center;" href="https://godonate.akoyago.com/NAPAVALLEYCF/fund/pass-through-fund" target="_blank" rel="noopener">Donate online</a>
+        <p style="margin:14px 0 0;font-size:.8rem;color:var(--muted);">Gifts to the Lewis Station Fund are held by the Napa Valley Community Foundation and granted to the City of St. Helena for the park. Opens in a new tab.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLIC COMMENT -->
+
+<!-- ====================================================================
+     SHARE — the comment form
+     ==================================================================== -->
+<section id="comment">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Community Voices</p>
+      <h2>Share what you love about the park</h2>
+      <p>Lewis Station belongs to all of us. Tell us your favorite memory, what you're most excited to see, or why this little park matters to you — we read every submission, and favorites are shared below.</p>
+    </div>
+
+    <!-- This form is handled by Netlify Forms. Submissions appear in the Netlify
+         dashboard under Forms → "community-voices", and you can turn on email
+         notifications there (Site settings → Forms → Form notifications).
+         Comments do NOT appear on the page automatically — you choose the ones
+         you like and paste them into the "What neighbors are saying" block below. -->
+    <form class="share" name="community-voices" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return submitComment(event)" style="max-width:640px;">
+      <input type="hidden" name="form-name" value="community-voices">
+      <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <label for="cname">Your name</label>
+      <input id="cname" name="name" type="text" placeholder="First name, or first name + initial" required>
+      <label for="cnabe">Neighborhood (optional)</label>
+      <input id="cnabe" name="neighborhood" type="text" placeholder="e.g., Downtown St. Helena">
+      <label for="cmsg">What do you love about Lewis Station Park?</label>
+      <textarea id="cmsg" name="comment" placeholder="Share a memory, a hope, or why this park matters to you." required></textarea>
+      <div style="margin-top:18px;"><button type="submit" class="btn">Share my comment</button></div>
+      <div id="formMsg" class="form-msg"></div>
+    </form>
+
+    <!-- ================================================================
+         WHAT NEIGHBORS ARE SAYING — *** paste approved comments here ***
+         To publish a comment: copy the block below, remove the arrows so it
+         starts with <div class="voice"> , and type in the quote and name.
+         Repeat for each comment. Two or three at a time looks best.
+         ================================================================ -->
+    <div class="voices">
+      <!-- TEMPLATE — copy this block for each approved comment:
+      <div class="voice">
+        <p>"The quote goes here."</p>
+        <div class="voice-who">— First name, Neighborhood</div>
+      </div>
+      -->
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER / CONTACT -->
+<footer class="site" id="contact">
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <div class="brand" style="color:#fff;margin-bottom:10px;">
+          <svg class="leaf" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 Q12.4 3 12.6 3.6 Q15.5 3 16 5.2 Q13.6 6 13 7 Q17 6.6 17.6 9 Q14.4 9.6 13.6 11 Q18.4 11 18.6 13.4 Q14.6 13.6 13.4 15.2 Q17 15.6 16.4 18 Q13.8 17.6 13 18.8 Q13.4 20.8 12 22 Q10.6 20.8 11 18.8 Q10.2 17.6 7.6 18 Q7 15.6 10.6 15.2 Q9.4 13.6 5.4 13.4 Q5.6 11 9.6 11 Q9.6 9.6 6.4 9 Q7 6.6 11 7 Q10.4 6 8 5.2 Q8.5 3 11.4 3.6 Q11.6 3 12 2 Z" fill="#7fa06b"/><path d="M12 5 L12 21" stroke="#22452b" stroke-width="1" stroke-linecap="round"/></svg>
+          Lewis Station Park Restoration
+        </div>
+        <p style="color:#bcd0b2;max-width:40ch;font-size:.95rem;">A neighbor-led effort in partnership with the City of St. Helena and the Beautification Foundation.</p>
+        <p style="margin-top:14px;font-size:.95rem;"><a href="mailto:lewisstationsthelena@gmail.com" style="color:#f3e4c8;font-weight:600;">lewisstationsthelena@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <p style="line-height:2;margin:0;">
+          <a href="#plan">The Plan</a><br>
+          <a href="#maps">Maps</a><br>
+          <a href="#dates">Volunteer Days</a><br>
+          <a href="#status">Status Updates</a>
+        </p>
+      </div>
+      <div>
+        <h4>Get Involved</h4>
+        <p style="line-height:2;margin:0;">
+          <a href="#support">Donate</a><br>
+          <a href="#comment">Share a comment</a><br>
+          <a href="#dates">Volunteer this fall</a><br>
+          <a href="mailto:lewisstationsthelena@gmail.com">Email us</a>
+        </p>
+      </div>
+    </div>
+    <div class="fine">
+      <p>© 2026 Lewis Station Park Restoration · St. Helena, California.</p>
+      <p class="disclaimer">This page was drafted from project notes and correspondence. Volunteer-day dates are placeholders — please confirm details before publishing. The sign-up and comment forms start working once the site is hosted on Netlify.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function selTier(el){
+    document.querySelectorAll('.tier').forEach(t=>t.classList.remove('sel'));
+    el.classList.add('sel');
+  }
+  function donateClick(){
+    alert("This is a placeholder donate button.\n\nConnect it to your GoFundMe, PayPal, or the City's donation page and it will take supporters straight to your giving page.");
+  }
+  // Submits a form to Netlify Forms without leaving the page, then shows a
+  // thank-you. If the site isn't on Netlify yet (e.g., previewing the file
+  // locally), it shows a fallback asking people to email instead.
+  function submitNetlifyForm(form, msgEl, thanks){
+    var msg = document.getElementById(msgEl);
+    var fields = new FormData(form);
+    fetch('/', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+      body: new URLSearchParams(fields).toString()
+    }).then(function(r){
+      msg.style.display = 'block';
+      if (r.ok) { msg.textContent = thanks; form.reset(); }
+      else { msg.textContent = 'Sorry, something went wrong — please email us instead at lewisstationsthelena@gmail.com.'; }
+    }).catch(function(){
+      msg.style.display = 'block';
+      msg.textContent = 'The form isn’t connected yet — please email us at lewisstationsthelena@gmail.com.';
+    });
+    return false;
+  }
+  function submitUpdates(e){
+    e.preventDefault();
+    var name = document.getElementById('uname').value || 'there';
+    return submitNetlifyForm(e.target, 'updMsg', 'Thanks, ' + name + '! You’re on the list — we’ll be in touch with dates and updates.');
+  }
+  function submitComment(e){
+    e.preventDefault();
+    var name = document.getElementById('cname').value || 'Friend';
+    return submitNetlifyForm(e.target, 'formMsg', 'Thank you, ' + name + '! Your comment has been received — favorites will be shared on this page.');
+  }
+</script>
+</body>
+</html>
