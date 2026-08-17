@@ -154,10 +154,7 @@ copy back. Nothing is permanent and nothing is lost.
 
 ## Before you go live — a short checklist
 
-- [ ] Open the page and confirm the park photo at the top and the news thumbnail
-      actually appear. They're currently pulled from `sthelena.com` and the
-      Register's servers, which can break without warning. If either is blank,
-      we should host our own copies.
+- [ ] Open the page and confirm all the photos appear.
 - [ ] Test the **Donate** button end to end — confirm the money lands in the
       right fund.
 - [ ] Test the email signup and the comment form (see "The two forms" below).
@@ -203,7 +200,6 @@ into the `images` folder with the exact right name — no editing at all.
 | What you see | File to drop in | Best size |
 |---|---|---|
 | Park photo in the About section | `images/park-photo.jpg` | 1600 × 1067 (landscape) |
-| News thumbnail | `images/news-photo.jpg` | 800 × 533 (landscape) |
 | The conceptual planting map | `images/planting-concept.png` | 900 × 1240 (tall) |
 | The share card (Facebook/texts) | `images/share-card.png` | 1200 × 630 exactly |
 | Coast Live Oak card | `images/plant-live-oak.jpg` | 640 × 480 (landscape) — **done** |
@@ -240,21 +236,3 @@ Anything beyond a straight swap — adding a photo gallery, putting a picture in
 new section, changing the crop shape — is easier to just ask for. Send the photos
 and say where they go.
 
-### One important caution on the news photo
-
-The current news thumbnail is credited **"Photo: Jesse Duarte, St. Helena Star."**
-It's being loaded from the Register's own servers, which is generally how they
-expect it to work. **Do not save a copy of that photo into your `images` folder** —
-hosting someone else's news photo on your own site is a copyright problem, even
-for a nonprofit.
-
-Your options for that slot, in order of preference:
-
-1. Use one of your own photos of the park
-2. Ask the Star for written permission to host theirs
-3. Leave it pointing at their server as it is now
-4. Drop the thumbnail entirely and keep just the headline link
-
-The park photo at the top has the same question mark — it's coming from
-`sthelena.com`. Replacing it with a photo the committee took is the cleanest fix,
-and it'll also load faster.
