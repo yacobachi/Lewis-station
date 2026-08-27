@@ -284,6 +284,8 @@
   .support-band p{margin:0 0 16px;color:#374338;font-size:1.02rem;}
   .chips{display:flex;flex-wrap:wrap;gap:10px;}
   .chip{background:var(--sage-soft);color:var(--forest-dark);font-family:"Helvetica Neue",Arial,sans-serif;font-size:.8rem;font-weight:700;padding:8px 14px;border-radius:999px;}
+  a.chip{text-decoration:none;}
+  a.chip:hover{background:var(--sage);color:#fff;}
 
   /* SAVE THE DATE */
   .dates{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
@@ -341,7 +343,7 @@
 
   /* FOOTER */
   footer.site{background:var(--forest-dark);color:#cfe0c6;padding:54px 0 30px;}
-  footer .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;}
+  footer .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;}
   @media(max-width:760px){footer .fgrid{grid-template-columns:1fr;gap:22px;}}
   footer h4{font-family:"Helvetica Neue",Arial,sans-serif;color:#fff;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px;}
   footer a{color:#e6efdf;}
@@ -726,8 +728,9 @@
     <div class="support-band">
       <p>At the August 11, 2026 City Council meeting, the plan drew letters of public support from neighbors and community organizations before the Council voted to move it forward.</p>
       <div class="chips">
-        <span class="chip">St. Helena Historical Society</span>
-        <span class="chip">Western Monarch Society of Napa County</span>
+        <a class="chip" href="https://www.shbeautification.org/" target="_blank" rel="noopener">St. Helena Beautification Foundation</a>
+        <a class="chip" href="https://shstory.org/" target="_blank" rel="noopener">St. Helena Historical Society</a>
+        <a class="chip" href="https://westernmonarchs.org/" target="_blank" rel="noopener">Western Monarch Society of Napa County</a>
         <span class="chip">11 letters of support</span>
       </div>
     </div>
@@ -857,17 +860,6 @@
           <a href="#comment">Share a comment</a><br>
           <a href="#dates">Volunteer this fall</a><br>
           <a href="mailto:lewisstationsthelena@gmail.com">Email us</a>
-        </p>
-      </div>
-      <!-- ==============================================================
-           SUPPORTERS — add or remove supporting organizations here
-           ============================================================== -->
-      <div>
-        <h4>Supporters</h4>
-        <p style="line-height:2;margin:0;">
-          <a href="https://www.shbeautification.org/" target="_blank" rel="noopener">St. Helena Beautification Foundation</a><br>
-          <a href="https://shstory.org/" target="_blank" rel="noopener">St. Helena Historical Society</a><br>
-          <a href="https://westernmonarchs.org/" target="_blank" rel="noopener">Western Monarch Advocates</a>
         </p>
       </div>
     </div>
