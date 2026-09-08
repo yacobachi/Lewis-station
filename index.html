@@ -228,13 +228,14 @@
   /* ABOUT US */
   .about-us-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:center;}
   @media(max-width:760px){.about-us-grid{grid-template-columns:1fr;gap:26px;}}
-  .about-photo{
-    aspect-ratio:4/5;border-radius:18px;background:var(--sage-soft);border:1px dashed #b9ccac;
-    display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;
-    color:#7d8f70;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.86rem;box-shadow:var(--shadow);
-  }
-  .about-photo img{width:100%;height:100%;object-fit:cover;border-radius:18px;}
-  .placeholder-copy{color:var(--muted);font-style:italic;border-left:3px solid var(--sage);padding-left:16px;}
+  .about-photo{aspect-ratio:4/3;border-radius:18px;overflow:hidden;background:var(--sage-soft);box-shadow:var(--shadow);}
+  .about-photo img{width:100%;height:100%;object-fit:cover;display:block;}
+  .bios{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:42px;}
+  @media(max-width:760px){.bios{grid-template-columns:1fr;}}
+  .bio{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px;box-shadow:var(--shadow);}
+  .bio h4{margin:0 0 4px;color:var(--forest-dark);font-size:1.05rem;}
+  .bio-role{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+  .bio p{margin:0;color:var(--muted);font-size:.94rem;line-height:1.65;}
   .future-note{
     margin-top:30px;background:var(--sage-soft);border:1px solid #cdddc0;border-radius:12px;
     padding:16px 20px;font-size:.94rem;color:#3a4a37;
@@ -484,12 +485,41 @@
       <p>The residents and partners steering the Lewis Station rehabilitation.</p>
     </div>
     <div class="about-us-grid">
-      <div class="about-photo">
-        <span>Team photo coming soon</span>
+      <div>
+        <figure class="about-photo" style="margin:0;">
+          <img src="images/team-photo.jpg" width="1400" height="1050" alt="Four members of the Lewis Station Park restoration committee smiling around one of the park's picnic tables, with the rail line and downtown St. Helena behind them." loading="lazy" decoding="async">
+        </figure>
+        <p style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:.8rem;color:var(--muted);margin:10px 2px 0;">The committee at work at one of the park's picnic tables.</p>
       </div>
       <div>
-        <p class="placeholder-copy">[Draft copy coming soon — a short introduction to the people leading the Lewis Station restoration and why this park matters to them. Stephanie will provide the text and a group photo to drop in here.]</p>
-        <p style="color:var(--muted);font-size:.95rem;">In the meantime: the effort is led by residents Kathy Carrick, Tracy McBride, and Nancy Morrell, with landscape designer Becke Oberschulte and contribution by arborist Bill Pramuk — in partnership with the City of St. Helena.</p>
+        <p>This little park could hardly ask for a better-suited crew. Between them, the committee brings 30 years of running St. Helena's parks — including adding seven new ones to the city — professional landscape design, a Master Gardener's deep knowledge of California native plants, decades of community beautification work, and memories that reach back to planting the original park in 1978. All four have deep roots in St. Helena, and all four share the same goal: turning this downtown pocket park into a shady, welcoming heart of town.</p>
+        <p style="color:var(--muted);font-size:.95rem;">The committee works in partnership with the City of St. Helena, with contribution by arborist Bill Pramuk.</p>
+      </div>
+    </div>
+
+    <!-- ================================================================
+         COMMITTEE BIOS — edit each person's bio in the blocks below
+         ================================================================ -->
+    <div class="bios">
+      <div class="bio">
+        <h4>Kathy Carrick</h4>
+        <div class="bio-role">Former City Parks &amp; Recreation Director</div>
+        <p>Kathy has lived in St. Helena for 46 years, arriving in the spring of 1980 to lead Parks and Recreation for the City of St. Helena. With a Master's degree in Municipal Recreation Administration and a 30-year tenure in which she added seven new parks to the city, she is — in her own words — a "parks person." She looks forward to seeing Lewis Station renovated into a park that the community and visitors alike will use and enjoy.</p>
+      </div>
+      <div class="bio">
+        <h4>Tracy McBride</h4>
+        <div class="bio-role">Napa County Master Gardener</div>
+        <p>Tracy has lived part-time and full-time in St. Helena her whole life — as a child, she'd race her modified monkey-bar bike to the Hunt Avenue railroad crossing just in time to meet the afternoon train as its caboose rolled by. As a Napa County Master Gardener, she knows how vital native plants are to local birds and insects, since California natives have co-evolved with our wildlife over thousands of years. Her hope is that within a few years, Lewis Station becomes a model garden showing how drought-tolerant landscaping can also support wildlife and offer a small pocket of nature right in the heart of town. Tracy also served on the St. Helena General Plan Update Steering Committee.</p>
+      </div>
+      <div class="bio">
+        <h4>Nancy Morrell</h4>
+        <div class="bio-role">St. Helena Beautification Foundation &amp; White Barn Board Member</div>
+        <p>Nancy is a board member of the St. Helena Beautification Foundation and the White Barn. In 1978, she and her small daughters — members of 4-H — joined others in the community to help plant the original Lewis Station Park.</p>
+      </div>
+      <div class="bio">
+        <h4>Becke Oberschulte</h4>
+        <div class="bio-role">Landscape Designer</div>
+        <p>After completing her studies in horticulture and landscape design at Cal Poly, Becke moved to St. Helena in 1979 to work with David Whiting of Whiting Nursery. She went on to establish Monkeyflowers, a landscape design and contracting business. Becke has served on the St. Helena Beautification Foundation and has volunteered on multiple landscape and gardening projects for the kids at St. Helena Public Schools. She welcomes the opportunity to work with a dedicated group of volunteers and the City of St. Helena to bring the Lewis Station project to fruition for multiple generations to enjoy.</p>
       </div>
     </div>
   </div>
