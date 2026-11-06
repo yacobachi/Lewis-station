@@ -159,7 +159,7 @@ copy back. Nothing is permanent and nothing is lost.
       right fund.
 - [ ] Test the email signup and the comment form (see "The two forms" below).
 - [ ] Open the site on a phone.
-- [ ] Once the domain is live, find and replace `lewisstationpark.org` in
+- [x] Once the domain is live, find and replace `lewisstationpark.org` in
       `index.html`, `robots.txt`, and `sitemap.xml` if you chose a different name.
 - [ ] Paste the link into a text message to yourself and check the preview card
       looks right.
